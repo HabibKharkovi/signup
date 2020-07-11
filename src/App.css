@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+body .MuiStepLabel-label {
+    font-size: 17px;
+    color: #c5b7da;
+    font-weight: bold;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body .MuiStepLabel-label.MuiStepLabel-active {
+    color: #795bb5; 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body .MuiStepLabel-label.MuiStepLabel-completed {
+    color: #795bb5; 
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body .MuiButton-root.Mui-disabled {
+    background-color: #c5b6dd;
+    color: #fff;
+    margin-right: 10px
 }
-
-.App-link {
-  color: #61dafb;
+body .MuiStepIcon-root {
+    color: #c5b7da;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body .MuiStepIcon-root.MuiStepIcon-active {
+    color: #795bb5;
+}
+body .MuiButton-root {
+    background-color: #795bb5; 
+    color: #fff
+}
+body .MuiButton-root:hover {
+    background-color: #303f9f; 
+    color: #fff
 }
